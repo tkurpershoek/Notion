@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Current date</title>
   <style>
+    html, body{
+      height:100%;
+    }
     body{
 /*         font-variant-caps: all-petite-caps; */
       margin:0;
@@ -14,10 +17,10 @@
     .widget {
 /*         padding: 5px 5px; */
         color: rgba(144, 101, 176, 1);
-/*         display: flex; */
-/*         justify-content:center; */
-/*         align-items:center; */
-/*         flex-direction: column; */
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
 /*         max-width: 95%; */
 /*         margin: auto; */
 /*         border: 3px solid #000000; */
@@ -99,7 +102,7 @@
       // dispalyGreetings(today);
       dispalyDate(today);
       // dispalyClock(today);
-      // setTimeout(dispalyWidget, 500);
+      setTimeout(dispalyWidget, 10000);
   }
   dispalyWidget()
 </script>
